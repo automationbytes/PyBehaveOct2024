@@ -1,0 +1,15 @@
+<testsuite name="SauceDemo.feature_HightoLow.To test Sauce Demo website" tests="1" errors="0" failures="0" skipped="1" time="0.0" timestamp="2024-10-13T21:55:56.668535" hostname="DESKTOP-IGM5GKP"><testcase classname="SauceDemo.feature_HightoLow.To test Sauce Demo website" name="To Verify Filter Option -- @1.1 " status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: To Verify Filter Option -- @1.1 
+    Given the user launches the application ... skipped in 0.000s
+    Then the user verifies the application is loaded ... skipped in 0.000s
+    When the user enters the valid credentials ... skipped in 0.000s
+    And the user verifies the home page ... skipped in 0.000s
+    And the user verifies the home page ... skipped in 0.000s
+    Then the user filters "Price (high to low)" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

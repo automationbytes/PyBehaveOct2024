@@ -35,4 +35,13 @@ def the_user_enters_the_valid_credentials(context):
 def the_user_verifies_the_home_page(context):
     context.driver = driver
     assert hp.verifyLogo() is True
-    
+
+
+@then(u'the user filters \"{str}\"')
+def step_impl(context,str):
+    hp.selectFilterDropdown(str)
+
+
+@then(u'the user logouts from the application')
+def logout(context):
+    hp.clickLogout()

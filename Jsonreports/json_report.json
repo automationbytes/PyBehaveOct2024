@@ -1,0 +1,417 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Background",
+      "location": "FeaturesFiles/SauceDemo.feature:4",
+      "name": "Login Scenario",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/SauceDemo.feature:5",
+          "name": "the user launches the application",
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemo.feature:6",
+          "name": "the user verifies the application is loaded",
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/SauceDemo.feature:7",
+          "name": "the user enters the valid credentials",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemo.feature:8",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        }
+      ],
+      "type": "background"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "FeaturesFiles/SauceDemo.feature:16",
+      "name": "To Verify Filter Option -- @1.1 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/SauceDemo.feature:5",
+          "name": "the user launches the application",
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemo.feature:6",
+          "name": "the user verifies the application is loaded",
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/SauceDemo.feature:7",
+          "name": "the user enters the valid credentials",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemo.feature:8",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemo.feature:12",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemo.feature:13",
+          "name": "the user filters \"Name (Z to A)\"",
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "FeaturesFiles/SauceDemo.feature:17",
+      "name": "To Verify Filter Option -- @1.2 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/SauceDemo.feature:5",
+          "name": "the user launches the application",
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemo.feature:6",
+          "name": "the user verifies the application is loaded",
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/SauceDemo.feature:7",
+          "name": "the user enters the valid credentials",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemo.feature:8",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemo.feature:12",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemo.feature:13",
+          "name": "the user filters \"Price (low to high)\"",
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "FeaturesFiles/SauceDemo.feature:18",
+      "name": "To Verify Filter Option -- @1.3 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/SauceDemo.feature:5",
+          "name": "the user launches the application",
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemo.feature:6",
+          "name": "the user verifies the application is loaded",
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/SauceDemo.feature:7",
+          "name": "the user enters the valid credentials",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemo.feature:8",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemo.feature:12",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemo.feature:13",
+          "name": "the user filters \"Price (high to low)\"",
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "FeaturesFiles/SauceDemo.feature:2",
+  "name": "To test Sauce Demo website",
+  "status": "skipped",
+  "tags": [
+    "Sanity"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Background",
+      "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:4",
+      "name": "Login Scenario",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:5",
+          "name": "the user launches the application",
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:6",
+          "name": "the user verifies the application is loaded",
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:7",
+          "name": "the user enters the valid credentials",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:8",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        }
+      ],
+      "type": "background"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:18",
+      "name": "To Verify Filter Option -- @1.1 ",
+      "status": "skipped",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:5",
+          "name": "the user launches the application",
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:6",
+          "name": "the user verifies the application is loaded",
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:7",
+          "name": "the user enters the valid credentials",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:8",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:12",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:13",
+          "name": "the user filters \"Price (high to low)\"",
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "FeaturesFiles/SauceDemo.feature_HightoLow.feature:2",
+  "name": "To test Sauce Demo website",
+  "status": "skipped",
+  "tags": [
+    "Regression"
+  ]
+},
+
+{
+  "elements": [
+    {
+      "keyword": "Background",
+      "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:4",
+      "name": "Login Scenario",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:5",
+          "name": "the user launches the application",
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:6",
+          "name": "the user verifies the application is loaded",
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:7",
+          "name": "the user enters the valid credentials",
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:8",
+          "name": "the user verifies the home page",
+          "step_type": "when"
+        }
+      ],
+      "type": "background"
+    },
+    {
+      "keyword": "Scenario Outline",
+      "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:17",
+      "name": "To Verify Filter Option -- @1.1 ",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:15"
+          },
+          "name": "the user launches the application",
+          "result": {
+            "duration": 0.7364842891693115,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:21"
+          },
+          "name": "the user verifies the application is loaded",
+          "result": {
+            "duration": 0.024214744567871094,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "When",
+          "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:7",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:27"
+          },
+          "name": "the user enters the valid credentials",
+          "result": {
+            "duration": 0.2350466251373291,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:8",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:34"
+          },
+          "name": "the user verifies the home page",
+          "result": {
+            "duration": 0.023365259170532227,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "And",
+          "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:12",
+          "match": {
+            "arguments": [],
+            "location": "steps/StepDefn.py:34"
+          },
+          "name": "the user verifies the home page",
+          "result": {
+            "duration": 0.018164396286010742,
+            "status": "passed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:13",
+          "match": {
+            "arguments": [
+              {
+                "name": "str",
+                "value": "Price (low to high)"
+              }
+            ],
+            "location": "steps/StepDefn.py:40"
+          },
+          "name": "the user filters \"Price (low to high)\"",
+          "result": {
+            "duration": 0.0948948860168457,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "FeaturesFiles/SauceDemoLowtoHigh.feature:2",
+  "name": "To test Sauce Demo website",
+  "status": "passed",
+  "tags": [
+    "Demo",
+    "Smoke"
+  ]
+}
+]

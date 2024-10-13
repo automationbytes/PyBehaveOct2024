@@ -1,4 +1,4 @@
-@Sanity
+@Regression
 Feature: To test Sauce Demo website
 
   Background: Login Scenario
@@ -13,8 +13,8 @@ Feature: To test Sauce Demo website
     Then the user filters "<filter>"
     Examples:
       | filter |
-    |Name (Z to A)|
-    |Price (low to high)|
+#    |Name (Z to A)|
+#    |Price (low to high)|
     |Price (high to low)|
 #
 #  Scenario: Logout
