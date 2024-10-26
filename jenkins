@@ -1,0 +1,63 @@
+pipeline {
+    agent any
+
+    environment {
+        VENV_PATH = "${WORKSPACE}\\venv"
+        ALLURE_REPORT_PATH = "${WORKSPACE}\\reports"
+        GITHUB_REPO = "https://github.com/automationbytes/PyBehaveOct2024.git"
+    }
+
+    stages {
+        stage('Clone Repo') {
+            steps {
+                // Get some code from a GitHub repository
+                git url: "$GITHUB_REPO", branch: "master"
+            }
+        }
+
+        stage('Setup VENV') {
+            steps {
+                // Get some code from a GitHub repository
+                bat "python -m venv $VENV_PATH"
+                bat "call $VENV_PATH\\Scripts\\activate.bat"
+                bat "call $VENV_PATH\\Scripts\\activate.bat && pip install -r requirements.txt"
+            }
+        }
+
+        stage('Execution') {
+            steps {
+                // Get some code from a GitHub repository
+                bat "call $VENV_PATH\\Scripts\\activate.bat && \"python\" runner.py"
+            }
+        }
+
+        stage('Setup Allure') {
+            steps {
+                // Download Allure command-line tool
+                bat 'curl -o allure-2.14.0.zip -Ls https://github.com/allure-framework/allure2/releases/download/2.14.0/allure-2.14.0.zip'
+
+                // Extract Allure zip file
+                bat 'powershell -Command "Expand-Archive -Path allure-2.14.0.zip -DestinationPath C:/ProgramData/Jenkins/.jenkins/workspace/pipeline -Force"'
+            }
+        }
+    }
+
+    post {
+        success {
+            // Generate Allure report
+            allure([
+                includeProperties: false,
+                jdk: '',
+                properties: [],
+                reportBuildPolicy: 'ALWAYS',
+                results: [
+                    [path: 'Reports']
+                ]
+            ])
+
+            // Archive the Allure report for later access
+            archiveArtifacts artifacts: 'Reports/**'
+        }
+    }
+
+}
