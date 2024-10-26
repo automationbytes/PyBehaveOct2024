@@ -11,6 +11,7 @@ driver.maximize_window()
 hp = HomePage(driver)
 lp = LoginPage(driver)
 
+#doing for git
 
 @given(u'the user launches the application')
 def the_user_launches_the_application(context):
