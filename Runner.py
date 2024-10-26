@@ -14,8 +14,8 @@ if __name__ == '__main__':
     run = FeaturesFilesPath+ReportPath+JsonReport+BehaveOptions+Tagged
     runner.main(run)
 
-    reportdir = os.getcwd() + "/Reports"
-    os.system('cmd /c "allure serve "'+reportdir)
+  #  reportdir = os.getcwd() + "/Reports"
+   # os.system('cmd /c "allure serve "'+reportdir)
 
     '''
     --tags = Sanity #only sanity will be executed
